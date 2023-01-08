@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Work Sans;
+
+}
+
+/* Header Area Start*/
+.header {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-contents {
+    padding: 216px 230px 150px 800px;
+    text-align: right;
+
+
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F15B22;
+    color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 5px;
+
+}
+
+/* Header Area End*/
+
+/* Section Achivements */
+.previous-year {
+    margin-top: 130px;
+}
+
+.previous-year-contents {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin-left: 206px;
+    margin-right: 322px;
+}
+
+.previous-year-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.previous-year-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.previous-year-failures ul {
+    list-style-image: url("../images/icons/done.png");
+}
+
+.previous-year-failures ul li {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #444343;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Section Achivements End*/
+
+/* Section My Plan Start */
+.my-plans {
+    margin: 130px 230px;
+    gap: 86px;
+}
+
+.plan-items-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.my-plan-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-items {
+    margin-top: 50px;
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.plan-description {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272
+}
+
+.plan-media {
+    text-align: center;
+}
+
+/* Section My Plan End */
+
+/* Section Banner Start */
+.banner {
+    margin: 130px 230px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+
+}
+
+.banner-container {
+    padding: 60px 600px 60px 60px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+
+}
+
+.banner-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-container .btn-primary {
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+
+/* Section Banner End */
+
+/* Footer Area Start*/
+.footer {
+    background-color: #151414;
+    ;
+}
+
+.footer-container {
+    display: flex;
+    gap: 330px;
+    padding: 130px 230px;
+
+}
+
+.footer-elements-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.footer-elements-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+.footer-elemments-email {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-elements-contact {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32PX;
+}
+
+.footer-input {
+    padding: 22px 158px 22px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 0;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.footer-form-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF
+}
+.footer-elements > a{
+    text-decoration: none;
+}
+/* Footer Area End */
